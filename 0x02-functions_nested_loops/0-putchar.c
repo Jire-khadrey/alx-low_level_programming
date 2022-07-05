@@ -11,8 +11,8 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 8; i++)
-		putchar(ch[i]);
-	putchar('\n');
+		_putchar(ch[i]);
+	_putchar('\n');
 
 	Return(0);
 }
