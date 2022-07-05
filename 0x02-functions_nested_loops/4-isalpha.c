@@ -9,14 +9,14 @@
 int _isalpha(int c)
 {
 	char low, up;
-	int is_lower = 0;
+	int islower = 0;
 
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		for (up = 'A'; up <= 'Z'; up++)
 		{
 			if (c == low || c == up)
-				is_lower = 1;
+				islower = 1;
 		}
 	}
 }
