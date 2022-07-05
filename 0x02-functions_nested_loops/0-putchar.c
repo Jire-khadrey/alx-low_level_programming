@@ -5,7 +5,7 @@
  * return : 0
  */
 
-int main(void)
+void main(void)
 {
 	char ch[8] = "_putchar";
 	int i;
