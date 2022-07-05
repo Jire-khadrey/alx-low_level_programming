@@ -2,10 +2,11 @@
 
 /**
  * main - prints "_putchar"
- * return : 0
+ *
+ * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	char ch[8] = "_putchar";
 	int i;
