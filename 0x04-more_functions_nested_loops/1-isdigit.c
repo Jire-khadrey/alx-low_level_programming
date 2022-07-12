@@ -1,22 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _isdigit - check the code.
- * @n: A integer value
- * Description: A function that checks for a digit (0 through 9)
- * Return: 1 if n is a digit and 0 otherwise
+ * _isdigit - A function that checks for a digit (0 through 9).
+ * @c: An input integer
+ * Return: 1 if c is a digit or 0 otherwise
  */
-
-int _isdigit(int n)
+int _isdigit(int c)
 {
-	int i;
-	int is_digit = 0;
+	char i = '0';
+	int isdigit = 0;
 
-	for (i = 0; i <= 9; i++)
+	for (; i <= '9'; i++)
 	{
-		if (i == n)
-			is_digit = 1;
+		if (i == c)
+		{
+			isdigit = 1;
+			break;
+		}
 	}
-	return (is_digit);
+
+	return (isdigit);
 }
