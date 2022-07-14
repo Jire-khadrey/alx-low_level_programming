@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ * *_strcat - Concatenates two strings
+ * @dest: Destination string
+ * @src: Source string
+ * @n: Number of bytes to copy
+ * Description: A function that combines two strings
+ * Return: the pointer to resulting string
+ */
+
+char *_strncat(char *dest, char *src, int n)
+{
+	int i = 0;
+
+	while (src[i] != '\0' && i < n)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+
+	return (dest);
+}
