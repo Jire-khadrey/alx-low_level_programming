@@ -1,4 +1,3 @@
 #!/bin/bash
-gcc -c *.c
+gcc wall 
 ar rc liball.a *.o
-ranlib liball.a
