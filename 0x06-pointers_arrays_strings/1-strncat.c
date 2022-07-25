@@ -5,6 +5,7 @@
  * @dest: First string
  * @src: String appended to the first string
  * @n: integer input
+ * Description:  a function that concatenates two strings
  * Return: the pointer to dest
  */
 
